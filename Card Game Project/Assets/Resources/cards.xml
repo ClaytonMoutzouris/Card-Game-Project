@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CardCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Cards>
+		<Card name="Danson">
+			<Damage>5</Damage>
+			<Cost>5</Cost>
+			<Mod>Minion</Mod>
+			<Rarity>0</Rarity>
+			<CardID>1</CardID>
+			<Function>Creature</Function>
+			<Type>Dark</Type>
+		</Card>
+		<Card name="Gareth">
+			<Damage>10</Damage>
+			<Cost>7</Cost>
+			<Mod>Master</Mod>
+			<Rarity>3</Rarity>
+			<CardID>2</CardID>
+			<Function>Creature</Function>
+			<Type>Steel</Type>
+		</Card>
+		<Card name="Dark Spell 1">
+			<Damage>4</Damage>
+			<Cost>3</Cost>
+			<Mod>Power</Mod>
+			<Rarity>2</Rarity>
+			<CardID>3</CardID>
+			<Function>Spell</Function>
+			<Type>Dark</Type>
+		</Card>
+		<Card name="Dark Spell 2">
+			<Damage>3</Damage>
+			<Cost>5</Cost>
+			<Rarity>1</Rarity>
+			<CardID>4</CardID>
+			<Function>Spell</Function>
+			<Type>Dark</Type>
+		</Card>
+		<Card name="Dark Spell 3">
+			<Damage>3</Damage>
+			<Cost>5</Cost>
+			<Rarity>1</Rarity>
+			<CardID>5</CardID>
+			<Function>Spell</Function>
+			<Type>Dark</Type>
+		</Card>
+		<Card name="Dark Spell 4">
+			<Damage>2</Damage>
+			<Cost>3</Cost>
+			<Rarity>2</Rarity>
+			<CardID>6</CardID>
+			<Function>Spell</Function>
+			<Type>Dark</Type>
+		</Card>
+		<Card name="Dark Spell 5">
+			<Damage>7</Damage>
+			<Cost>4</Cost>
+			<Rarity>1</Rarity>
+			<CardID>7</CardID>
+			<Function>Spell</Function>
+			<Type>Dark</Type>
+		</Card>
+		<Card name="Steel Spell 1">
+			<Damage>4</Damage>
+			<Cost>5</Cost>
+			<Rarity>3</Rarity>
+			<CardID>8</CardID>
+			<Function>Spell</Function>
+			<Type>Steel</Type>
+		</Card>
+		<Card name="Steel Spell 2">
+			<Damage>5</Damage>
+			<Cost>4</Cost>
+			<Rarity>2</Rarity>
+			<CardID>9</CardID>
+			<Function>Spell</Function>
+			<Type>Steel</Type>
+		</Card>
+		<Card name="Fire Spell 1">
+			<Damage>4</Damage>
+			<Cost>2</Cost>
+			<Rarity>1</Rarity>
+			<CardID>10</CardID>
+			<Function>Spell</Function>
+			<Type>Fire</Type>
+		</Card>
+		<Card name="Fire Spell 2">
+			<Damage>2</Damage>
+			<Cost>1</Cost>
+			<Mod>Quick</Mod>
+			<Rarity>0</Rarity>
+			<CardID>11</CardID>
+			<Function>Spell</Function>
+			<Type>Fire</Type>
+		</Card>
+		<Card name="Ice Spell 1">
+			<Damage>1</Damage>
+			<Cost>2</Cost>
+			<Mod>Casting</Mod>
+			<Rarity>1</Rarity>
+			<CardID>12</CardID>
+			<Function>Spell</Function>
+			<Type>Ice</Type>
+		</Card>
+	</Cards>
+</CardCollection>
