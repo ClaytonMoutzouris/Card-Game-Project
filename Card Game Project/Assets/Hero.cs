@@ -8,6 +8,7 @@ public class Hero : MonoBehaviour {
 
 	public int health;
 	public int energy;
+    public int maxEnergy;
 	public Text text;
 	public Deck deck;
 
@@ -16,10 +17,11 @@ public class Hero : MonoBehaviour {
 		health = h;
 		energy = e;
 		deck = d;
+        maxEnergy = 3;
 	}
 
 	public void startTurn(){
-		setEnergy (energy+1);
+		setEnergy (maxEnergy);
 		deck.Draw ();
 	}
 

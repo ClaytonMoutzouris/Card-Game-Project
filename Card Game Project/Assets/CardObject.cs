@@ -42,7 +42,7 @@ public class CardObject : MonoBehaviour {
 		}
 	}
 	public bool play(){
-		if (owner.energy > 0) {
+		if (owner.energy >= cost) {
 
 			//owner.energy--;
 			playable = true;
@@ -56,7 +56,7 @@ public class CardObject : MonoBehaviour {
 
 	public void playCard (){
 		owner.setHealth (owner.health - damage);
-		owner.setEnergy(owner.energy - 1);
+		owner.setEnergy(owner.energy - cost);
 	}
 
 	public void isSelected(){
